@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python second/pytorch/train.py evaluate --config_path=./second/configs/nuscenes/Youngseock.config --model_dir=./second/ckpt/ --ckpt_path=./second/ckpt/voxelnet-98456.tckpt --measure_time=True --batch_size=20
